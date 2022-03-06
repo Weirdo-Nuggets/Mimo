@@ -1,0 +1,27 @@
+div {
+    border: 2px solid black;
+}
+p {
+    text-align: right;
+}
+button {
+    width: 24%;
+    height: 50px;
+    margin: 0 4px 0 5px;
+    font-size: 1;
+    border: solid white;
+    border-radius: 10px;
+    background-color: #acacac;
+}
+.ac {
+    background-color: orange;
+    width: 49%;
+    border-radius: 0px;
+    margin: 0 4px 0 5px;
+}
+.equals {
+    background-color: greenyellow;
+    width: 49%;
+    border-radius: 0px;
+    margin: 0 4px 0 5px;
+}

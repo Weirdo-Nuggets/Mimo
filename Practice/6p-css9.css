@@ -1,0 +1,70 @@
+.images {
+    text-align: center;
+}
+.ired {
+    width: 20px;
+    height: 45px;
+}
+.iorange {
+    width: 50px;
+    height: 45px;
+}
+.iyellow {
+    width: 80px;
+    height: 45px;
+}
+.igreen {
+    width: 110px;
+    height: 45px;
+}
+.iblue {
+    width: 140px;
+    height: 45px;
+}
+.iindigo {
+    width: 170px;
+    height: 45px;
+}
+.iviolet {
+    width: 200px;
+    height: 45px;
+}
+
+div {
+    margin: 0 auto;
+}
+.red {
+    width: 20px;
+    height: 45px;
+    background-color: #ff0000;
+}
+.orange {
+    width: 50px;
+    height: 45px;
+    background-color: #ff6600;
+}
+.yellow {
+    width: 80px;
+    height: 45px;
+    background-color: #fffb00;
+}
+.green {
+    width: 110px;
+    height: 45px;
+    background-color: #00ff00;
+}
+.blue {
+    width: 140px;
+    height: 45px;
+    background-color: #0000ff;
+}
+.indigo {
+    width: 170px;
+    height: 45px;
+    background-color: #000055;
+}
+.violet {
+    width: 200px;
+    height: 45px;
+    background-color: #ff00dd;
+}

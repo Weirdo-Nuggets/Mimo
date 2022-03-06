@@ -1,0 +1,13 @@
+h4 {
+    margin: 5px 0 5px 0;
+}
+
+p {
+    margin: 0 0 15px 0;
+}
+
+div {
+    margin: 40px;
+    color: gray;
+    font-size: small;
+}

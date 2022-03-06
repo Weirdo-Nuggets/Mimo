@@ -1,0 +1,17 @@
+body {
+    background-color: #eeba66;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+div {
+    background-color: #ebd1af;
+    border: #eeba66 solid 1px;
+    padding: 10px;
+    text-align: left;
+}
+.brdr-rdius {
+    border-radius: 10px 10px 0 0;
+}
+.brdr-rdius2 {
+    border-radius: 0 0 10px 10px;
+}

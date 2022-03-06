@@ -1,0 +1,21 @@
+div {
+    border: 2px solid black;
+    font-size: 0;
+}
+button {
+    border:solid white;
+    color: blue;
+    text-align: center;
+}
+.games {
+    background-color: lightblue;
+    width: 40%;
+}
+.movies {
+    background-color: #ffdc7a;
+    width: 35%;
+} 
+.music {
+    background-color: lightcoral;
+    width: 25%;
+}

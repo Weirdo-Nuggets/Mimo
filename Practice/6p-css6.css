@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+}
+div {
+    border: 1px solid indigo;
+}
+h2 {
+    background-color: indigo;
+    margin: 0;
+    color: white;
+}
+.price {
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+}
+button {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

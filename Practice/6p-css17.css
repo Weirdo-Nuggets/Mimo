@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+div {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    font-size: 0;
+}
+.gray {
+    background-color: #acacac;
+}
+.black {
+    background-color: black;
+}

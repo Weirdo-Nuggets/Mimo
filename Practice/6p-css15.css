@@ -1,0 +1,25 @@
+body {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    border: 2px solid gray;
+    padding: 5px;
+    margin: 5px 0 0 0;
+    width: 350px;
+}
+.purple {
+    background-color: #6b004b;
+}
+.white {
+    color:white;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.orange {
+    color: orangered;
+}

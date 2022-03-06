@@ -1,0 +1,32 @@
+body {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    margin: 5px;
+    width: 300px;
+    text-align: center;
+    font-size: medium;
+    padding:5px;
+}
+.gray {
+    background-color: #b8b2a1;
+}
+.bisque {
+    background-color: #ffe499;
+}
+.violet {
+    background-color: violet;
+}
+.light {
+    font-weight: lighter;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.border {
+    border: 2px solid black;
+}

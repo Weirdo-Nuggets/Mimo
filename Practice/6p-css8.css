@@ -1,0 +1,19 @@
+.gray {
+    background-color: gray;
+    width: fit-content;
+}
+.red {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+.yellow {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px; 
+}
+.green {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}

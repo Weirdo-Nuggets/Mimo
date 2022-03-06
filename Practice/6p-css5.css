@@ -1,0 +1,33 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    background-color: rgb(255, 94, 0);
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 20px 0 20px 5px;
+}
+h4 {
+    background-color: #d86941;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 20px 0 20px 5px;
+    font-weight: lighter;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+div {
+    background-color: bisque;
+    width: 100%;
+    text-align: center;
+    padding: 1% 0 0 0;
+}
+.bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+.small {
+    font-size: 14px;
+}

@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: #9c9479;
+}
+div {
+    width: 200px;
+    height: 45px;
+    margin: 0 auto;
+}
+.red {
+    background-color: red;
+}
+.white {
+    background-color: white;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.blue {
+    background-color: blue;
+}
+.black {
+    background-color: black;
+}

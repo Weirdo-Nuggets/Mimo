@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+div {
+    margin: 10px auto;
+    width: max-content;
+    padding: 10px;
+}
+button {
+    border: none;
+    border-radius: 20px;
+    color: blue;
+    font-size: smaller;
+    background-color: #a5a5a5;
+    padding: 10px;
+}
+p {
+    font-size: small;
+}
+.post1 {
+    border: goldenrod 3px solid;
+    background-color: #ffefd7;
+}
+.head1 {
+    color: goldenrod;
+    
+}
+.post2 {
+    background-color: #ffefd7;
+}
+.head2 {
+
+}
