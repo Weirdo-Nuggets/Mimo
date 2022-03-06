@@ -1,0 +1,36 @@
+button {
+	margin: 40px 15px 40px 15px;
+	width:100px;
+	height: 100px;
+	border-radius: 15px;
+	background-color: red;
+	border: solid 5px dimGray;
+}
+body {
+	text-align: center;
+}
+.c1 {
+	margin: 30px 0 0 0;
+	font-size: 8px;
+}
+.c2 {
+
+}
+.i1 {
+	border-radius: 30px 0 30px 0;
+	width: 250px;
+	height: 300px;
+}
+.i2 {
+	border-radius: 0 30px 0 30px;
+	width: 250px;
+	height: 300px;
+}
+.c3 {
+	border-radius: 0 0 0 100px;
+	width: 100px;
+	height: 100px;
+	background-color: lightBlue;
+	text-align: center;
+
+}

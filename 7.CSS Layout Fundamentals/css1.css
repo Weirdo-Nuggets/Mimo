@@ -1,0 +1,42 @@
+a {
+    display: inline;
+    border: solid darkgreen;
+    margin: 2px;
+
+}
+em {
+    display: inline-block;
+    border: solid rgb(228, 14, 192);
+    margin: 2px;
+    height: 60px;
+
+}
+strong {
+    display: inline;
+    border: solid rgb(0, 10, 100);
+    margin: 2px;
+}
+p {
+    display: inline-block;
+    border: solid 2px black;
+    height: 100px;
+}
+.p1 {
+    color: darkorchid;
+    font-size: 10px;
+}
+.p2 {
+    color: rgb(50, 204, 158);
+    font-size: 10px;
+}
+button {
+    display: inline-block;
+    height: 50px;
+    width:120px;
+}
+header {
+    background-color: rgb(189, 51, 5);
+    height: 60px;
+    display: inline-block;
+    border-radius: 20px;
+}

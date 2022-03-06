@@ -1,0 +1,9 @@
+img {
+    width: 10%;
+    height: 20%;
+    float: right;
+    
+}
+.second {
+    clear: right;
+}

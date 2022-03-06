@@ -1,0 +1,59 @@
+h3 {
+	background-color: green;
+	border: solid;
+		border-radius: 10px;
+
+
+}
+img {
+	height: 500px;
+	width: 300px;
+	border-radius: 150px;
+}
+
+.round {
+	height: 100px;
+	width: 100px;
+	border: solid;
+		border-radius: 50px;
+
+}
+
+.flat {
+	height: 100px;
+	width: 100px;
+	border: solid;
+		border-radius: 50px;
+
+}
+
+.medium {
+	width: 300px;
+	background-color: red;
+	border: solid;
+		border-radius: 10px;
+
+}
+
+.small {
+	width: 150px;
+	background-color: pink;
+	border: solid;
+		border-radius: 10px;
+
+}
+
+.single {
+	width: 150px;
+	background-color: rosyBrown;
+	border: solid;
+		border-radius: 10px;
+
+}
+
+.double {
+	width: 250px;
+	background-color: brown;
+	border: solid;
+	border-radius: 10px;
+}

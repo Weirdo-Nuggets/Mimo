@@ -1,0 +1,4 @@
+img {
+	filter: grayscale(100%);
+	filter: opacity(80%);
+}

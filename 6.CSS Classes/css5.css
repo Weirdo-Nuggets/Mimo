@@ -1,0 +1,51 @@
+h1 {
+    background-color: #000000;
+    border: solid 4px white;
+    border-radius: 20px;
+}
+body {
+    text-align: center;
+    font-family: 'Courier New';
+    color: white;
+    background-color: #faf5f1;
+}
+.list {
+    color: #000000;
+    text-align: left;
+}
+.red {
+background-color: #ff0000;
+border: solid red;
+border-radius: 10px;
+color: #ffffff;
+z
+}
+.green {
+background-color: #00ff00;
+border: solid #00ff00;
+border-radius: 10px;
+color: #ffffff;
+font-family: Arial;
+}
+.blue {
+background-color: #0000ff;
+border: solid #0000ff;
+border-radius: 10px;
+color: #ffffff;
+font-family: Arial;
+}
+.gradient1 {
+    background: linear-gradient(to right, #ee9ca7, #ffdde1);
+}
+.gradient2 {
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+
+}
+.gradient3 {
+    background: linear-gradient(90deg, #00416A, #E4E5E6);
+
+}
+.gradient4 {
+    background: linear-gradient(90deg, #334d50, #cdcaa5);
+
+}

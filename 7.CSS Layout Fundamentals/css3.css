@@ -1,0 +1,13 @@
+p {
+    background-color: #edbaa6;
+}
+strong {
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+em {
+    position:relative;
+    top: 30px;
+    right: 10px;
+}
