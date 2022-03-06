@@ -1,0 +1,11 @@
+body {
+    background-color: slategray;
+    color: white;
+    text-align: center;
+}
+
+img {
+    margin: 10px 0 20px 0;
+    border: solid 2px aliceblue;
+    filter: saturate(130%) brightness(110%);
+}
