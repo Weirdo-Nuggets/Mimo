@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template: 2fr 1fr 35px 2fr / 1fr 1fr;
+            gap: 8px;
+            background-color: #06acac;
+            padding: 3px;
+            width: max-content;
+            height: max-content;
+            margin: 0 auto;
+        }
+        .gcolumn {
+            grid-column: span 2;
+        }
+        .item {
+            background-color: #a5e1e1;
+            padding: 5px;
+        }
+        img {
+            width: 90px;
+            height: 90px;
+            margin-top: 15px;
+            border-radius: 45px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="gcolumn item">
+            <img src="Sunset_Cat.jpeg" alt="">
+        </div>
+
+        <div class="gcolumn item">
+            <p>Joana Lese / UX Designer</p>
+        </div>
+
+            <div class="item">
+                <a href="#">3.2k Friends</a>
+            </div>
+            <div class="item">
+                <a href="#">My Posts</a>
+            </div>
+
+        <div class="gcolumn item">
+            <h2>About Me</h2>
+            <p>I'm a professional UX designer specializing in Mobile Apps.</p>
+        </div>
+    </div>
+</body>
+</html>

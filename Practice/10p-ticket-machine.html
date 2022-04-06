@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: #6969e5;
+        }
+        .container {
+            display: grid;
+            grid-template: 50px 50px / 150px 150px;
+            gap: 30px 10px;
+            width: max-content;
+            height: max-content;
+            margin: 0 auto;
+        }
+        button {
+            background-color: #6969e5;
+            color: white;
+            text-align: center;
+            border: none;
+        }
+        button:active {
+            border: #aaa5a5 solid 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Queuing Ticket</h1>
+    <div class="container">
+        <button>
+            Account Opening
+        </button>
+
+        <button>
+            Account Activation
+        </button>
+
+        <button>
+            Cash Withdrawal
+        </button>
+
+        <button>
+            Cash Deposit
+        </button>
+    </div>
+</body>
+</html>

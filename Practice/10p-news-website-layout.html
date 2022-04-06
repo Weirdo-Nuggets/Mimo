@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template: 1fr 2fr / 1fr 2fr;
+            grid-template-areas: 
+            "header header"
+            "sidebar article";
+            gap: 3px;
+            width: 600px;
+            height: 200px;
+            margin: auto;
+        }
+        .header {
+            grid-area: header;
+        }
+        .sidebar {
+            grid-area: sidebar;
+        }
+        .article {
+            grid-area: article;
+        }
+        .item {
+            background-color: #bad2e7;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header item">
+            <p>The Guardian</p>
+        </div>
+        
+        <div class="sidebar item">
+            <a href="#">News</a><br>
+            <a href="#">Opinions</a><br>
+            <a href="#">Sports</a><br>
+            <a href="#">Culture</a><br>
+            <a href="#">Lifestyle</a><br>
+        </div>
+
+        <div class="article item">
+            <h2>Latest News</h2>
+
+            <ol>
+                <li>CIA assures America</li>
+                <li>Footballer wins lottery</li>
+                <li>Country passes Bill</li>
+            </ol>
+
+            <a href="#">Read more...</a>
+        </div>
+    </div>
+</body>
+</html>

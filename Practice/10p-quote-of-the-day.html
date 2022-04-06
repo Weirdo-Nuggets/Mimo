@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: #f8debc;
+            display: grid;
+            grid-template-areas: 
+            "header header"
+            "quote sidebar"
+            "more more";
+            width: 500px;
+            height: max-content;
+            margin: 30px auto;
+            padding: 10px;
+        }
+        h2 {
+            grid-area: header;
+            text-align: center;
+        }
+        .quote {
+            grid-area: quote;
+        }
+        .sidebar {
+            grid-area: sidebar;
+        }
+        .more {
+            grid-area: more;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Quote of the Day</h2>
+
+        <div class="quote">
+            <li>
+                Setting a good example for children takes all the fun out of middle age. --- <em>William Feather</em>
+            </li>
+        </div>
+        <div class="sidebar">
+            <a href="#">Today's</a> <br>
+            <a href="#">Yesterday's</a> <br>
+            <a href="#">Archive's</a> <br>
+            <a href="#">Search</a> <br>
+        </div>
+
+        <a class="more" href="#">More Quotes...</a>
+    </div>
+</body>
+</html>

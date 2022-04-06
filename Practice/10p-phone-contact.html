@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template: 100px repeat(3, 130px) / 500px;
+            width: max-content;
+            height: max-content;
+            margin: 0 auto;
+        }
+        .header {
+            background-color: #3f0378;
+            color: white;
+        }
+        .item {
+            padding-left: 40px;
+            border-bottom: gray solid 1px;
+        }
+        .space {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header item">
+            <h1>Contacts</h1>
+        </div>
+
+        <div class="item">
+            <h3 class="space">Jane Doe</h3>
+            <p>+7 (454) 233 443</p>
+        </div>
+        
+        <div class="item">
+            <h3 class="space">John Paten</h3>
+            <p>+44 (544) 233 443</p>
+        </div>
+        <div class="item">
+            <h3 class="space">June Martha</h3>
+            <p>+82 (594) 233 443</p>
+        </div>
+    </div>
+</body>
+</html>

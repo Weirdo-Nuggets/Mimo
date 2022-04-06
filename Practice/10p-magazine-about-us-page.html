@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: lightgray;
+        }
+        .container {
+            display: grid;
+            grid-template: repeat(4, 160px) 100px / 500px;
+            width: max-content;
+            height: max-content;
+            margin: 0 auto;
+        }
+        .ourStory, .ourValues {
+            background-color: rgb(238, 231, 231);
+        }
+        .item {
+            padding-left: 10px;
+        }
+        .footer {
+            border-top: solid rgb(82, 17, 17) 1px;
+            margin: 0;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <h1>About Us</h1>
+            <p>Fashiona is a trsuted source of fashion news, criticism, and career advice with a monthly readership of more than 50 million.</p>
+        </div>
+
+        <div class="ourStory item">
+            <h1>Our Story</h1>
+            <p>We started in downtown New York back in the nineties, and have grown to become one of the most influential fashion magazines</p>
+        </div>
+
+        <div class="item">
+            <h1>Our Culture</h1>
+            <p>We believe in a world full of creativity</p>
+        </div>
+
+        <div class="ourValues item">
+            <h1>Our Values</h1>
+            <ul>
+                <li>Openness</li>
+                <li>Transparency</li>
+                <li>Fashion</li>
+            </ul>
+        </div>
+
+        <p class="item footer">© Copyright 2021</p>
+    </div>
+</body>
+</html>
