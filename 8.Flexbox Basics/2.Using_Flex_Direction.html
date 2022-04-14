@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css2.css">
+    <title>Using Flex Direction</title>
+    <style>
+        a {
+            color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <div class="listContainer">
+        <h1 class="listHead">Notes</h1>
+        <ul class="list">
+            <li class="subheading"> Meanings- Flex Direction
+            </li>
+                <ul class="noBold">
+                    <li>To control the direction elements are displayed, the flex-direction property is sued.</li>
+                    <li>flex-direction: row/column. Row is teh default</li>
+                    <li>the row value means items start from the left of the container, horizontally(y'know the default <br>
+                    but the content stretches out to fill the container's height, so really confusing</li>
+                    <li>the column value means items start from the top of the container, vertically (y'know like a column). <br>
+                         Only the items stretch out to fill the container's width which makes it not look like a column...so confusing -_-</li>
+                    <li>In conclusion, flex-direction:row looks like columns and flex-direction: column looks like rows so have fun!</li>
+                </ul>
+            
+            <li class="subheading"> Meanings- Reverse Direction
+            </li>
+                <ul class="noBold">
+                    <li>To make the items start at the right side of container use the flex-direction:row-reverse; declaration</li>
+                    <li>To reverse the starting position of columns, use flex-direction:column-reveerse; </li>
+                </ul>
+                <li class="subheading">Links
+                    <ul class="noBold">
+                        <li><a href="1.Understanding_Flexbox.html">Flexbox</a></li>
+                        <li><a href="2.Using_Flex_Direction.html">Flex Direction</a></li>
+                        <li><a href="3.Flexbox_Axes.html">Flexbox Axes</a></li>
+                    </ul>
+                </li>
+        </ul>
+    </div>
+
+    <!--Try-->
+    <h1>Using Flex-Direction</h1>
+    <div class="rowContainer">
+        <div class="row">1</div>
+        <div class="row">2</div>
+        <div class="row">3</div>
+        <div class="row">4</div>
+    </div>
+
+    <div class="colContainer">
+        <div class="col">1</div>
+        <div class="col">2</div>
+        <div class="col">3</div>
+        <div class="col">4</div>
+    </div>
+    <h1>Using Reverse-Direction</h1>
+    <h6>Fighting the urge to not say One Direction and oops!!</h6>
+    <div class="ReverserowContainer">
+        <div class="Rrow">1</div>
+        <div class="Rrow">2</div>
+        <div class="Rrow">3</div>
+        <div class="Rrow">4</div>
+    </div>
+
+    <div class="ReversecolContainer">
+        <div class="Rcol">1</div>
+        <div class="Rcol">2</div>
+        <div class="Rcol">3</div>
+        <div class="Rcol">4</div>
+    </div>
+</body>
+</html>

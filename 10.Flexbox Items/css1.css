@@ -1,0 +1,44 @@
+body {
+    background-color: aquamarine;
+}
+.noBold {
+    font-weight: normal;
+}
+.listContainer {
+    background-color: tomato;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.listHead {
+    background-color: orange;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.subheading {
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline rgb(24, 255, 24);
+}
+.list {
+    color: maroon;
+}
+
+.one {
+    background-color: #289228;
+    flex-basis: auto;
+    width: 80%;
+    height: 70%;
+}
+
+.two {
+    background-color: chocolate;
+    width: 200px;
+    height: 20%;
+}
+
+.container {
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css1.css">
+    <title>Understanding Flexbox</title>
+    <style>
+        a {
+            color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <div class="listContainer">
+        <h1 class="listHead">Notes</h1>
+        <ul class="list">
+            <li class="subheading"> Meanings
+                <ul class="noBold">
+                <li>With Flexbox, elements adapt in size to fit perfectly <br>
+                on different scenes.</li>
+                <li>To apply it, there needs to be a parent element <strong>(flex container)</strong> with a nested child element <strong>(flex item)</strong> inside</li>
+                <li>property:value = display:flex</li>
+                </ul>
+            </li>
+            <li class="subheading"> Behaviour
+                <ul class="noBold">
+                <li>By default, Flexbox fits items inside a container on <strong>1 row</strong>, <br>
+                and flex items automaticallt stretch to fill their container's height. <br>
+                Flex items are as wide as the content inside of them, and can shrink to <br>
+                 fit all other items in one container</li>
+                <li>If content that pass the total width of the container are coded, that item will overflow</li>
+                <li>display:flex affects inline and block elements alike, it ain't racist :)</li>
+                <li>In conclusion they will grow taller but will refuse to grow bigger</li>
+                </ul>
+            </li>
+            <li class="subheading">Links
+                <ul class="noBold">
+                    <li><a href="1.Understanding_Flexbox.html">Flexbox</a></li>
+                    <li><a href="2.Using_Flex_Direction.html">Flex Direction</a></li>
+                    <li><a href="3.Flexbox_Axes.html">Flexbox Axes</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!--Try-->
+    <div class="container">
+        <div class="item">Doop di doop di doop</div>
+        <div class="item">heior</div>
+        <div class="item">pneumonoultramicroscopicsilicovolcanoconiosis</div>
+        <div class="item">how that was the longest word? pneumonoultramicroscopicsilicovolcanoconiosis pneumonoultramicroscopicsilicovolcanoconiosis</div>
+        <div class="item">This is the tipping point</div>
+        <div class="item">What!!!!!!!!</div>
+        <div class="item">How long will this take -_-</div>
+        <div class="item">aaaaaaaaaaaa</div>
+        <div class="item">My goodness what will it take?</div>
+        <div class="item">:)</div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    background-color: #6d6ddb;
+}
+.container {
+    background-color: whitesmoke;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+    margin: auto;
+}
+.meanContainer {
+    
+    color: #10022c;
+    padding: 10px;
+    width: fit-content;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.linkContainer {
+    color: #10022c;
+    padding: 10px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listHead {
+    align-self: flex-start;
+}
+.list {
+    border: 10px dotted #10022c;
+}
+.subheading {
+    background-color: greenyellow ;
+    border-radius: 10px;
+    border: solid 2px coral;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: underline 2px coral;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #10022c;
+}
+a:hover {
+    color: red;
+}
+
+/*Lesson CSS*/
+.grid-container{
+    background-color: #080800;
+    border: 1px dashed #ffd900;
+    display: grid;
+}
+.grid-item{
+    background-color: #ffd900;
+    color: #ffffff;
+    text-align: center;
+    margin: 2px;
+    padding: 10px;
+}
+.one {
+    grid-template: 50px 50px / 150px 150px;   
+}
+.two {
+    grid-template: 50px 50px / 1fr 2fr;   
+}
+.three {    
+    grid-template: 50% auto / 2fr 1fr;   
+}
+.four {
+    grid-template: 1fr 1fr 1fr/ 60% auto;   
+}

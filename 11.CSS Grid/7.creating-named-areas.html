@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css7.css">
+    <title>Creating Named Areas</title>
+</head>
+<body>
+    <div class="container">
+    <div class="meanContainer">
+        <h1 class="listHead">Notes</h1>
+        <ul class="list">
+            <li class="subheading"> Meaning
+			</li>
+                <ul>
+                    <li>They are used to label certain part of the webpage such as the header, footer etc</li>
+                    <li>Use the grid-area: classname; declaration to assign an area name</li>
+                    <li>Firstly, different areas should have different class names. This is shows in the <br>
+                    <strong>grid-template-areas: classname classname classname; declaration which assigns an item to the grid layout</strong></li>
+                    <li>To span a grid item across multiple grid columns, repeat the name of the grid item</li>
+                    <li>Using <strong>. or ...</strong>leaves a grid area empty</li>
+                    <li>To adjust the order in which it is shown use <strong>"areaname"</strong>. All of the area spaces must be filled <br> 
+                        otherwise it will distort the grid</li>
+                    <li>The first line of names represents 1 column, and the first item represents one row</li>
+                    <li>Code the rows on different lines so it is easier to read</li>
+                </ul>
+    </div>
+    <div class="linkContainer">
+            <h1 class="listHead">Links</h1>
+                <ul class="list">
+                    <li><a href="1.creating-a-css-grid.html">CSS Grid</a></li>
+                    <li><a href="2.creating-grid-columns.html">Grid Columns</a></li>
+                    <li><a href="3.creating-grid-rows.html">Grid Rows</a></li>
+                    <li><a href="4.defining-grid-columns-and-rows.html">Grid Columns & Rows</a></li>
+                    <li><a href="5.grid-gaps.html">Grids Gaps</a></li>
+                    <li><a href="6.defining-grid-item's-size.html">Grid Item's Size</a></li>
+                    <li><a href="7.creating-named-areas.html">Creating Named Areas</a></li>
+                    <li><a href="8.sections-using-named-areas.html">Section Using Named Areas</a></li>
+                    <li><a href="9.aligning-grid-items.html">Aligining Grid Items</a></li>
+                    <li><a href="10.using-css-grid-and-flexbox.html">Using CSS Grid & Flexbox</a></li>
+                </ul>
+        </ul>
+    </div>
+</div>
+
+    <!--Try-->
+    <div class="shortcut">
+        <div class="grid-item one">Area 1</div>
+        <div class="grid-item two">Area 2</div>
+        <div class="grid-item three">Area 3</div>
+        <div class="grid-item four">Area 4</div>
+    </div>
+    <br> <br>
+    <div class="grid-container">
+        <div class="grid-item item1">Area 1</div>
+        <div class="grid-item item2">Area 2</div>
+        <div class="grid-item item3">Area 3</div>
+        <div class="grid-item item4">Area 4</div>
+    </div>
+    <br>
+    <div class="grid-container2">
+        <div class="grid-item item1">Area 1</div>
+        <div class="grid-item item2">Area 2</div>
+        <div class="grid-item item3">Area 3</div>
+        <div class="grid-item item4">Area 4</div>
+    </div>
+    <br>
+    <div class="grid-container3">
+        <div class="grid-item item1">Area 1</div>
+        <div class="grid-item item2">Area 2</div>
+        <div class="grid-item item3">Area 3</div>
+        <div class="grid-item item4">Area 4</div>
+    </div>
+</body>
+</html>

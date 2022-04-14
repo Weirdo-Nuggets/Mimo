@@ -1,0 +1,71 @@
+body {
+    background-color: aquamarine;
+}
+.noBold {
+    font-weight: normal;
+}
+.listContainer {
+    background-color: tomato;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.listHead {
+    background-color: orange;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.subheading {
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline rgb(24, 255, 24);
+}
+.list {
+    color: maroon;
+}
+
+.rowContainer {
+    border: solid 3px greenyellow;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+.row {
+    border: solid 3px #4e2fff;
+    margin: 5px;
+    height: 300px;
+}
+.colContainer {
+    border: solid 3px greenyellow;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+.col {
+    border: solid 3px #4e2fff;
+    margin: 5px;
+    width: 200px;
+}
+
+.ReverserowContainer {
+    border: solid 3px greenyellow;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 300px;
+}
+.Rrow {
+    border: solid 3px #4e2fff;
+    margin: 5px;
+    height: 300px;
+}
+.ReversecolContainer {
+    border: solid 3px greenyellow;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 500px;
+}
+.Rcol {
+    border: solid 3px #4e2fff;
+    margin: 5px;
+    width: 200px;
+}

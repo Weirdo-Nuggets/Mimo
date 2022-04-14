@@ -1,0 +1,39 @@
+body {
+    background-color: aquamarine;
+}
+.noBold {
+    font-weight: normal;
+}
+.listContainer {
+    background-color: tomato;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.listHead {
+    background-color: orange;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.subheading {
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline rgb(24, 255, 24);
+}
+.list {
+    color: maroon;
+}
+
+.one {
+    background-color: #289228;
+    flex: 1 1 300px;
+}
+
+.two {
+    background-color: chocolate;
+    flex: 0 1 200px;
+}
+
+.container {
+    border: solid 1px red;
+    display: flex;
+}

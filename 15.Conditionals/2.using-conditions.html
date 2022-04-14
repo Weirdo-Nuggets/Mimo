@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+    <script type="text/javascript" src="2.using-conditions.js"></script>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        .chooseBox {
+            background-color: lightslategray;
+            padding: 10px;
+            margin: auto;
+            border-radius: 10px;
+            width: max-content;
+            height: max-content;
+            text-align: center;
+        }
+        button {
+            background-color: blueviolet;
+            color: white;
+            border: 1px solid white;
+            border-radius: 2px;
+            width: 150px;
+            height: 30px;
+            margin-top: 8px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="container1">
+        <h1 style="color: greenyellow; margin-left: 10px;">JavaScript</h1>
+    <div class="navbar">
+        <div class="border">
+            <h2 class="heading">LINKS</h2>
+            <ol>
+                <li><a href="1.making-decisions.html">Making Decisions</a></li>
+                <li><a href="2.using-conditions.html">Using Conditions</a></li>
+                <li><a href="3.coding-else-statements.html">Coding Else Statements</a></li>
+                <li><a href="4.incorporating-else-if.html">Incorporating Else If Statements</a></li>
+            </ol>
+        </div>
+    </div>
+    
+    <div class="notes">
+        <div class="border">
+        <h2 class="heading">NOTES</h2>
+             <ul>
+                <li>The Trivia game displays correct if the user got it right and not wuite if they got it wrong</li>
+                <li>We can use the === operator to check if the answer is correct</li>
+             </ul>
+         </div>
+    </div>
+    </div>
+
+    <div class="container2">
+        <div class="box">
+            <iframe src="2.using-conditions.js"></iframe>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="box">
+            <h2 style="color: white; text-align: center;">Trivia Time</h2>
+            <div class="chooseBox">
+                <h3>Which painter was born in Spain?</h3>
+                <input type="radio" name="yes" id="Picasso"> Picasso<br>
+                <input type="radio" name="yes" id="Matisse"> Matisse <br>
+                <button>Submit</button>
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

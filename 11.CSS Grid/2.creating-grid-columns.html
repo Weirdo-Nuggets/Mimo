@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css2.css">
+    <title>CSS Grid Columns</title>
+</head>
+<body>
+    <div class="container">
+    <div class="meanContainer">
+        <h1 class="listHead">Notes</h1>
+        <ul class="list">
+            <li class="subheading"> Meaning
+			</li>
+                <ul>
+                    <li>To adjust the size of columns on a CSS Grid use the normal values</li>
+                    <li>Grid items are displayed based on the no. of columns. <br> 
+                    If there are more items than columns, extra items will be pushed down to the next row.</li>
+                    <li>Setting a column to auto will make grid items take up as much space as they can</li>
+                    <li>Fractional unit or <strong>fr</strong> distributes the container's avaliable space in fractions</li>
+                    <li>If we combine fr with px e.g, the space left after adding the px item is what gets distributed in fractions.</li>
+                    <li>Using the repeat(3, 1fr) function means that 3 columns will take up 1fr each</li>
+                    <li>Using px fixes the size of columns so it is not good for responsive webpages</li>
+                </ul>
+    </div>
+    <div class="linkContainer">
+            <h1 class="listHead">Links</h1>
+                <ul class="list">
+                    <li><a href="1.creating-a-css-grid.html">CSS Grid</a></li>
+                    <li><a href="2.creating-grid-columns.html">Grid Columns</a></li>
+                    <li><a href="3.creating-grid-rows.html">Grid Rows</a></li>
+                    <li><a href="4.defining-grid-columns-and-rows.html">Grid Columns & Rows</a></li>
+                    <li><a href="5.grid-gaps.html">Grids Gaps</a></li>
+                    <li><a href="6.defining-grid-item's-size.html">Grid Item's Size</a></li>
+                    <li><a href="7.creating-named-areas.html">Creating Named Areas</a></li>
+                    <li><a href="8.sections-using-named-areas.html">Section Using Named Areas</a></li>
+                    <li><a href="9.aligning-grid-items.html">Aligining Grid Items</a></li>
+                    <li><a href="10.using-css-grid-and-flexbox.html">Using CSS Grid & Flexbox</a></li>
+                </ul>
+        </ul>
+    </div>
+</div>
+
+    <!--Try-->
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+    </div>
+    <br>
+    <div class="grid-container2">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+    </div>
+    <br>
+    <div class="grid-container3">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+    </div>
+    <br>
+    <div class="grid-container4">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+    </div>
+    <br>
+    <div class="grid-container5">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+    </div>
+</body>
+</html>

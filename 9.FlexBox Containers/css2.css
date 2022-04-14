@@ -1,0 +1,66 @@
+body {
+    background-color: aquamarine;
+}
+.noBold {
+    font-weight: normal;
+}
+.listContainer {
+    background-color: tomato;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.listHead {
+    background-color: orange;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.subheading {
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline rgb(24, 255, 24);
+}
+.list {
+    color: maroon;
+}
+.Rcontainer {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 5px solid #4ad1d1;
+}
+.SAcontainer {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 5px solid #4ad1d1;
+}
+.SBcontainer {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 5px solid #4ad1d1;
+}
+.Ccontainer {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid #4ad1d1;
+}
+.CSAcontainer {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 5px solid #4ad1d1;
+}
+.CSBcontainer {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 5px solid #4ad1d1;
+}

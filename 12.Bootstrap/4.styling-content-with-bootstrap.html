@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css4.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>CSS Grid</title>
+    <style>
+        * {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #c27731b7;
+}
+.container {
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    "header header header header"
+    "header header header header"
+    "navbar notes notes notes"
+    "navbar notes notes notes"
+    "navbar notes notes notes"
+    "try try try try"
+    "try try try try"
+    "try try try try";
+
+}
+/*Header*/
+.header {
+    grid-area: header; 
+    background-color: #532a04;
+    border-radius: 25px;
+    border: 1px tan solid;
+    color: tan;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    padding: 25px;
+}
+.border {
+    border: 1px solid tan;
+}
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
+    background-color: #6341169c;
+    border: tan 1px solid;
+    color: tan;
+    width: 150px;
+    height: fit-content;
+    text-align: center;
+}
+/*Navigation Bar*/
+.navbar {
+    grid-area: navbar;
+    background-color: #532a0452;
+    border: 1px tan solid;
+    border-radius: 25px;
+    width: fit-content;
+    height: max-content;
+    padding: 25px 25px 25px 25px;
+}
+a {
+    color: #d28cd2;
+    text-decoration: none;
+    font-style: italic;
+}
+a:hover {
+    color: tan;
+}
+.try {
+    grid-area: try; 
+    display: flex;
+    justify-content: center;
+    width: max-content;
+}
+/*Notes*/
+.notes {
+    grid-area: notes; 
+    background-color: #532a0452;
+    height: max-content;
+    border: 1px tan solid;
+    border-radius: 25px;
+    padding: 25px 25px 25px 25px;
+    margin-left: auto;
+}
+.list {
+    font-style: italic;
+}
+.subheading {
+    font-weight: bolder;
+    width: 90px;
+    text-align: center;
+    background-color: #6341169c;
+    color: tan;
+    border: 1px solid tan;
+    border-radius: 10px;
+}
+
+
+    </style>
+</head>
+<body>
+    <div>
+       <div class="container">
+           
+           <div class="header">
+               <div class="border">BOOTSTRAP WITH MIMO</div>
+            </div>
+
+           <div class="navbar">
+            <div class="border">
+                <h2 class="heading">LINKS</h2>
+                <div class="links">
+                    <a href="1.creating-a-bootstrap-grid.html">Bootstrap Grid</a> <br>
+                    <a href="2.creating-bootstrap-navbars.html">Bootstrap Navbars</a> <br>
+                    <a href="3.layout-with-bootstrap.html">Bootstrap Layouts</a> <br>
+                    <a href="4.styling-content-with-bootstrap.html">Bootstrap Formatting</a> <br>
+                    <a href="5.using-bootstrap-buttons.html">Bootstrap Buttons</a> <br>
+                    <a href="6.working-with-cards.html">Cards what cards oooh those cards</a>
+            </div>
+                </div>
+           </div>
+
+           <div class="try container">
+               <div class="row">
+                   <div class="col text-center">
+                       <h1 class="bg-primary text-white rounded m-2 p-2">Olympics Games</h1>
+                       <p class="lead text-secondary p-2 shadow bg-white rounded">
+                           Llego el momento, caen las muradas, va a comenzar da da da da da de las batallas. Da da da el golpe, <br>
+                           resiste el miedo da da a la justa da da da da da da el juego. Hoy la passion, se siente, espara al <br> fin tu gente.
+                           Te espera aqui tu gente, ahora vamos por todos, y ahora empieza la suerte <br>
+                           Samina Samina San Kalifa porque esto es Africa <br>
+                           Some Inner Inner Air Air Waka Waka Eh Eh <br>
+                           Samina Samina San Kalifa porque esto es Africa <br>
+                       </p>
+                       <p class="text-uppercase ">WAKA WAKA- by Annonymus</p>
+                   </div>
+               </div>
+           </div>
+
+           <div class="notes">
+               <div class="border">
+               <h2 class="heading">NOTES</h2>
+               <ul class="list">
+                   <li class="subheading">Meaning</li>
+                    <ul>
+                        <li>Use the lead class on p tags to make them stand out</li>
+                        <li>Use the text-uppercase or text-lowercase class to turn text into upper and lowercase respectively</li>
+                        <li>Use the text-primary class to convey importancce (text color)</li>
+                        <li>Use the bg-primary class to turn the background-color of elements blue</li>
+                        <li>Use the <span class="text-white">text-white</span> class to change the color of text to white</li>
+                        <li>Use the text-center class center all the contents of an element</li>
+                        <li>Use m- and p- to change margins and paddings</li>
+                        <li>Use rounded to round the corners (border radius)</li>
+                        <li>Use shadow to create a shadow on the container/content</li>
+                    </ul>
+                </div>
+           </div>
+       </div>
+       
+</body>
+</html>

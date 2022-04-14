@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>CSS Grid</title>
+    <style>
+        * {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #c27731b7;
+}
+.container {
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    "header header header header"
+    "header header header header"
+    "navbar try try notes"
+    "navbar try try notes"
+    "navbar try try notes"
+    "navbar try try notes"
+    "navbar try try notes"
+    "navbar try try notes";
+
+}
+/*Header*/
+.header {
+    grid-area: header; 
+    background-color: #532a04;
+    border-radius: 25px;
+    border: 1px tan solid;
+    color: tan;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    padding: 25px;
+}
+.border {
+    border: 1px solid tan;
+}
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
+    background-color: #6341169c;
+    border: tan 1px solid;
+    color: tan;
+    width: 150px;
+    height: fit-content;
+    text-align: center;
+}
+/*Navigation Bar*/
+.navbar {
+    grid-area: navbar;
+    background-color: #532a0452;
+    border: 1px tan solid;
+    border-radius: 25px;
+    width: fit-content;
+    height: max-content;
+    padding: 25px 25px 25px 25px;
+}
+a {
+    color: #d28cd2;
+    text-decoration: none;
+    font-style: italic;
+}
+a:hover {
+    color: tan;
+}
+.try {
+    grid-area: try; 
+    display: flex;
+    justify-content: center;
+    width: max-content;
+}
+/*Notes*/
+.notes {
+    grid-area: notes; 
+    background-color: #532a0452;
+    width: 350px;
+    height: max-content;
+    border: 1px tan solid;
+    border-radius: 25px;
+    padding: 25px 25px 25px 25px;
+    margin-left: auto;
+}
+.list {
+    font-style: italic;
+}
+.subheading {
+    font-weight: bolder;
+    width: 90px;
+    text-align: center;
+    background-color: #6341169c;
+    color: tan;
+    border: 1px solid tan;
+    border-radius: 10px;
+}
+
+
+    </style>
+</head>
+<body>
+    <div>
+       <div class="container">
+           
+           <div class="header">
+               <div class="border">BOOTSTRAP WITH MIMO</div>
+            </div>
+
+           <div class="navbar">
+            <div class="border">
+                <h2 class="heading">LINKS</h2>
+                <div class="links">
+                    <a href="1.creating-a-bootstrap-grid.html">Bootstrap Grid</a> <br>
+                    <a href="2.creating-bootstrap-navbars.html">Bootstrap Navbars</a> <br>
+                    <a href="3.layout-with-bootstrap.html">Bootstrap Layouts</a> <br>
+                    <a href="4.styling-content-with-bootstrap.html">Bootstrap Formatting</a> <br>
+                    <a href="5.using-bootstrap-buttons.html">Bootstrap Buttons</a> <br>
+                    <a href="6.working-with-cards.html">Cards what cards oooh those cards</a>
+            </div>
+                </div>
+           </div>
+
+           <div class="try">
+               <div class="container-fluid">
+                   This item spans the entire containter.
+               </div>
+           </div>
+
+           <div class="notes">
+               <div class="border">
+               <h2 class="heading">NOTES</h2>
+               <ul class="list">
+                   <li class="subheading">Meaning</li>
+                   </ul>
+                    <ul>
+                        <li>A library is made out of code we can import and use in our projects. E.g Bootstrap</li>
+                        <li>To import a CSS library, use the <link rel="stylesheet" href=""></li>
+                        <li>CDN can be used to import Bootstrap from a remote server</li>
+                            <ul>
+                                <li>A CDN is a network of global servers that deliver web content fast</li>
+                            </ul>
+                        <li>Bootstrap styles elements with the help of predefined classes.</li> 
+                        
+                    </ul>
+                <li class="subheading">Classes</li>
+                <ul>
+                    <li>The <strong>container</strong> class adds padding, and aligns Bootstrap rows.</li>
+                    <li>The <strong>container-fluid</strong> class makes webpage elements span across the entire width of a <br>
+                    bigger screen.</li>
+                    <li>The <strong><a href="2.creating-bootstrap-navbars.html">navbar</a></strong> class makes the element a standard navigation bar
+                    </li>
+                    <li>The <strong><a href="2.creating-bootstrap-navbars.html">navbar-expand-md</a></strong> makes the navbar responisve on both mobile and desktop.</li>
+                    <li>The <strong><a href="2.creating-bootstrap-navbars.html">navbar-brand</a></strong> will include a logo inside the navbar</li>
+                    <li>The <strong><a href="2.creating-bootstrap-navbars.html">navbar-nav</a></strong> will create a nav menu to the ul/ol element</li>
+                    <li>The <strong><a href="2.creating-bootstrap-navbars.html">nav-link</a></strong> will add space between the navbar links</li>
+                    <li>The <strong><a href="3.layout-with-bootstrap.html">row</a></strong>class turns divs into rows</li>
+                    <li>The <strong><a href="3.layout-with-bootstrap.html">col</a></strong>class organizes content in columns</li>
+                        <ul>
+                            <li>col-1 gives 1 column in 1 row</li>
+                            <li>col-2 gives 2 column in 1 row</li>
+                            <li>col-3 gives 3 column in 1 row</li>
+                            <li>col-4 gives 4 column in 1 row</li>
+                            <li>col-5 gives 5 column in 1 row</li>
+                            <li>col-6 gives 6 column in 1 row</li>
+                            <li>col-7 gives 7 column in 1 row</li>
+                            <li>col-8 gives 8 column in 1 row</li>
+                            <li>col-9 gives 9 column in 1 row</li>
+                            <li>col-10 gives 10 column in 1 row</li>
+                            <li>col-11 gives 11 column in 1 row</li>
+                            <li>col-12 gives 12 column in 1 row</li>
+                        </ul>
+                    <li>The <strong><a href="3.layout-with-bootstrap.html">offset-(number)</a></strong> creates a space on the left side of the columns</li>
+                    <li>The <strong><a href="4.styling-content-with-bootstrap.html">lead</a></strong> class to make paragraphs stand out</li>
+                    <li>The <strong><a href="4.styling-content-with-bootstrap.html">text-uppercase and text-lowercase</a></strong>classes turn text into uppercase and lowercase respectively</li>
+                    <li>The <strong><a href="4.styling-content-with-bootstrap.html">text-primary</a></strong> class changes text's color (emphasis for Bootstrap)</li>
+                    <li>The <strong><a href="4.styling-content-with-bootstrap.html">bg-primary</a></strong> class to change the element's background color</li>
+                    <li>The <strong><a href="4.styling-content-with-bootstrap.html">text-white</a></strong> class will change text color to white (oh my)</li>
+                    <li>The <strong><a href="4.styling-content-with-bootstrap.html">text-center</a></strong> class will center text</li>
+                    <li>The <strong><a href="4.styling-content-with-bootstrap.html">m- and p-</a></strong> classes change the margins and paddings</li>
+                    <li>The <strong><a href="4.styling-content-with-bootstrap.html">rounded</a></strong> class rounds the corners of the container</li>
+                    <li>The <strong><a href="4.styling-content-with-bootstrap.html">shadow</a></strong> class creates a shadow on the content/container</li>
+                    <li>The <strong><a href="5.using-bootstrap-buttons.html">btn</a></strong> class creates button in input, button and a tags</li>
+                    <li>The <strong><a href="5.using-bootstrap-buttons.html">btn-success</a></strong> class indicates some desired action when the button is clicked</li>
+                    <li>The <strong><a href="5.using-bootstrap-buttons.html">btn-danger</a></strong> class indicates some dangerous or denounced action when the button is clicked</li>
+                    <li>The <strong><a href="5.using-bootstrap-buttons.html">btn-lg and btn-sm</a></strong> classes make the buttons large and small respectively</li>
+                    <li>Color buttons be like -</li>
+                            <ul>
+                                <li><button class="btn btn-primary"><a href="5.using-bootstrap-buttons.html">btn-primary (blue)</a></button></li>
+                                <li><button class="btn btn-secondary"><a href="5.using-bootstrap-buttons.html">btn-secondary (gray)</a></button></li>
+                                <li><button class="btn btn-info"><a href="5.using-bootstrap-buttons.html">btn-info (dark cyan)</a></button></li>
+                                <li><button class="btn btn-dark"><a href="5.using-bootstrap-buttons.html">btn-dark (black)</a></button></li>
+                            </ul>
+                    <li>The <strong><a href="6.working-with-cards.html">card</a></strong> class creates a Bootstrap card</li>
+                    <li>The <strong><a href="6.working-with-cards.html">card-img-top</a></strong> class sets the image at the top of the card</li>
+                    <li>The <strong><a href="6.working-with-cards.html">card-body</a></strong> class creates the headings and text inside a separate div inside the card</li>
+                    <li>The <strong><a href="6.working-with-cards.html">card-text</a></strong> class creates text in cards</li>
+                    <li>The <strong><a href="6.working-with-cards.html">card-header</a></strong> class creates a header section on the card</li>
+                    <li>The <strong><a href="6.working-with-cards.html">card-footer</a></strong> class creates a footer section on the card</li>
+                </ul>
+                </div>
+           </div>
+       </div>
+       
+</body>
+</html>

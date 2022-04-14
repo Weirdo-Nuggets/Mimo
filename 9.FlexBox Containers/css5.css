@@ -1,0 +1,96 @@
+body {
+    background-color: aquamarine;
+}
+.noBold {
+    font-weight: normal;
+}
+.listContainer {
+    background-color: tomato;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.listHead {
+    background-color: orange;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.subheading {
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline rgb(24, 255, 24);
+}
+.list {
+    color: maroon;
+}
+.scontainer {
+    border: solid 2px maroon;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+.sitem {
+    border: solid 2px olivedrab;
+    width: 20%;
+    margin: 1px;
+}
+.fscontainer {
+    border: solid 2px maroon;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.fsitem {
+    border: solid 2px olivedrab;
+    width: 20%;
+    margin: 1px;
+}
+.fecontainer {
+    border: solid 2px maroon;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.feitem {
+    border: solid 2px olivedrab;
+    width: 20%;
+    margin: 1px;
+}
+.ccontainer {
+    border: solid 2px maroon;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.citem {
+    border: solid 2px olivedrab;
+    width: 20%;
+    margin: 1px;
+}
+.sacontainer {
+    border: solid 2px maroon;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.saitem {
+    border: solid 10px olivedrab;
+    width: 20%;
+    margin: 1px;
+}
+.sbcontainer {
+    border: solid 2px maroon;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.sbitem {
+    border: solid 10px olivedrab;
+    width: 20%;
+    margin: 1px;
+}

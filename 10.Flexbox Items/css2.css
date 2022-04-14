@@ -1,0 +1,58 @@
+body {
+    background-color: aquamarine;
+}
+.noBold {
+    font-weight: normal;
+}
+.listContainer {
+    background-color: tomato;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.listHead {
+    background-color: orange;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.subheading {
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline rgb(24, 255, 24);
+}
+.list {
+    color: maroon;
+}
+
+.one {
+    background-color: #289228;
+    width: 100px;
+}
+
+.two {
+    background-color: chocolate;
+    flex-grow: 1
+}
+
+.container {
+    border: solid 1px red;
+    display: flex;
+}
+
+.one2 {
+    background-color: #289228;
+    flex-grow: 10;
+}
+.two2 {
+    background-color: chocolate;
+    flex-grow: 20;
+}
+
+.three2 {
+    background-color: yellowgreen;
+    flex-grow: 10;
+}
+
+.container2 {
+    border: solid 1px red;
+    display: flex;
+}

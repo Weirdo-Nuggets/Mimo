@@ -1,0 +1,45 @@
+body {
+    background-color: aquamarine;
+}
+.noBold {
+    font-weight: normal;
+}
+.listContainer {
+    background-color: tomato;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.listHead {
+    background-color: orange;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.subheading {
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline rgb(24, 255, 24);
+}
+.list {
+    color: maroon;
+}
+.container {
+    border: solid 2px maroon;
+    display: flex;
+    width: 200px;
+    flex-wrap: nowrap;
+}
+.item {
+    border: solid 2px olivedrab;
+    margin: 20px;
+}
+.container2 {
+    border: solid 2px maroon;
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.item2 {
+    border: solid 2px olivedrab;
+    margin: 20px;
+}

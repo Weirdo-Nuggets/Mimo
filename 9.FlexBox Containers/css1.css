@@ -1,0 +1,44 @@
+body {
+    background-color: aquamarine;
+}
+.noBold {
+    font-weight: normal;
+}
+.listContainer {
+    background-color: tomato;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.listHead {
+    background-color: orange;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.subheading {
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline rgb(24, 255, 24);
+}
+.list {
+    color: maroon;
+}
+
+.fscontainer {
+    border: solid 2px maroon;
+    display: flex;
+    justify-content: flex-start;
+}
+.fsitem {
+    border: solid 2px olivedrab;
+    margin: 10px;
+}
+.fecontainer {
+    border: solid 2px maroon;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.feitem {
+    border: solid 2px olivedrab;
+    margin: 10px;
+}

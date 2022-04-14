@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css2.css">
+    <title>Justifying Rows and Columns</title>
+    <style>
+        a {
+            color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <div class="listContainer">
+        <h1 class="listHead">Notes</h1>
+        <ul class="list">
+            <li class="subheading">Rows
+			</li>
+                <ul class="noBold">
+                    <li>To flex items at teh center of the main axis use justify-content:center;</li>
+                    <li>the evenly space out the content (margins) use justify-content:space-around;</li>
+                    <li>To keep space between items use justify-content:space-between;</li>
+
+                </ul>
+            
+            <li class="subheading">Columns
+			</li>
+                <ul class="noBold">
+                    <li>The same values except they can only be visible if the container is taller than all the items</li>
+                </ul>
+                <li class="subheading">Links</li>
+                <ul>
+                    <li><a href="1.justifying-groups-of-items.html">Justifying Groups</a></li>
+                    <li><a href="2.justifying-rows-and-columns.html">Justifying Rows and Columns</a></li>
+                    <li><a href="3.aligning-flex-items.html">Aligning Items</a></li>
+                    <li><a href="4.wrapping-flex-items.html">Wrapping Items</a></li>
+                    <li><a href="5.aligning-wrapped-rows.html">AligningWrapped Rows</a></li>
+                </ul>
+        </ul>
+    </div>
+
+    <!--Try-->
+        <div class="Rcontainer">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+        <div class="SBcontainer">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+        <div class="SAcontainer">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+
+        <div class="Ccontainer">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+        <div class="CSBcontainer">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+        <div class="CSAcontainer">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css3.css">
+    <title>Flexbox Axes</title>
+    <style>
+        a {
+            color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <div class="listContainer">
+        <h1 class="listHead">Notes</h1>
+        <ul class="list">
+            <li class="subheading">Meaning- Main Axis
+            </li> 
+                <ul class="noBold">
+                    <li>The main axis is an imaginary line that refers to teh direction and orientation of flex items,<br>
+                         defined by the flex-direction</li>
+                    <li>They are used because FlexBox is designed to work for websites in different languages</li>
+                    <li>On the main axis, flex-direction:row shows items horizontally form left to right <br>
+                    flex-direction: row-reverse; has the main axis being horizontal, going from right to left</li>
+                    <li>On the main axis, flex-direction:column; shows items vertically, from top to bottom <br>
+                    and flex-direction: column-reveerse; has the main axis vertical going from bottom to top </li>
+                </ul>
+            
+            <li class="subheading"> Cross Axis
+            </li>
+                <ul class="noBold">
+                    <li>Cross axis are the imaginary lines perpendicular to the main axis.</li>
+                    <li>e.g the cross axis for row and row-reverse is vertical (row/row-reverse are horizontal)</li>
+                </ul>
+                <li class="subheading">Links
+                    <ul class="noBold">
+                        <li><a href="1.Understanding_Flexbox.html">Flexbox</a></li>
+                        <li><a href="2.Using_Flex_Direction.html">Flex Direction</a></li>
+                        <li><a href="3.Flexbox_Axes.html">Flexbox Axes</a></li>
+                    </ul>
+                </li>
+        </ul>
+    </div>
+
+    <!--Try-->
+    <h1>Using Flex-Direction</h1>
+    <div class="rowContainer">
+        <div class="row">1</div>
+        <div class="row">2</div>
+        <div class="row">3</div>
+        <div class="row">4</div>
+    </div>
+
+    <div class="colContainer">
+        <div class="col">1</div>
+        <div class="col">2</div>
+        <div class="col">3</div>
+        <div class="col">4</div>
+    </div>
+    <h1>Using Reverse-Direction</h1>
+    <h6>Fighting the urge to not say One Direction and oops!!</h6>
+    <div class="ReverserowContainer">
+        <div class="Rrow">1</div>
+        <div class="Rrow">2</div>
+        <div class="Rrow">3</div>
+        <div class="Rrow">4</div>
+    </div>
+
+    <div class="ReversecolContainer">
+        <div class="Rcol">1</div>
+        <div class="Rcol">2</div>
+        <div class="Rcol">3</div>
+        <div class="Rcol">4</div>
+    </div>
+</body>
+</html>

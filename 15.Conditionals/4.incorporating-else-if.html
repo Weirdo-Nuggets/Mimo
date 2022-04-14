@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+    <script type="text/javascript" src="4.incorporating-else-if.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<div class="container">
+    <div class="container1">
+        <h1 style="color: greenyellow; margin-left: 10px;">JavaScript</h1>
+    <div class="navbar">
+        <div class="border">
+            <h2 class="heading">LINKS</h2>
+            <ol>
+                <li><a href="1.making-decisions.html">Making Decisions</a></li>
+                <li><a href="2.using-conditions.html">Using Conditions</a></li>
+                <li><a href="3.coding-else-statements.html">Coding Else Statements</a></li>
+                    <li><a href="4.incorporating-else-if.html">Incorporating Else If Statements</a></li>
+            </ol>
+        </div>
+    </div>
+    
+    <div class="notes">
+        <div class="border">
+        <h2 class="heading">NOTES</h2>
+             <ul>
+                <li>Let's say you want to do a good old math problem like 10 < x < 20, we can use the if / else if statement</x></li>
+                <li>This statement is run if the if statement before it is false, and since the else if statement is true so it runs the code block</li>
+                <li>But if neither of these are true you can do the normal method which is using the else alone</li>
+                <li><strong>So it works like this: </strong></li>
+                    <ol>
+                        <li>If the hour (14) is less than 12, then show "Good morning!"</li>
+                        <li>But if this is false, instead if the hour (14) is less then 17 then show "Good Afternoon!"</li>
+                        <li>But if thsi is also false, show "Good night!"</li>
+                    </ol>
+                <li>So you can add as many else if statements as long they are before the else statement which remember is the default statement</li>
+                
+                <br>
+
+                <li>For the Dark Mode Practical its a lot.</li>
+                    <ol>
+                        So you have to recreate or copy the code for the html and css part which is simple to recreate but I wanted to copy it straight because things weren't working well
+                        <li>We're learning something new which is the function selectMode(mode)</li>
+                            <ul>
+                                <li>Which I'm guessing links the onclick attribute in HTML elements (button) to the value mode</li>
+                                <li>So when the user clicks the dark button, the function mode will call the ff; if and else statements</li>
+                            </ul>
+                        <li>So for the js part, we're adding the variables color, image and label as the base to change the color of the div, the image(apple), and the label (Dark, Light, and Ninja Mode)</li>
+                        <li>Then we're using the if statement that says if mode is the same as dark, show the following variables color, image, and label which have been changed to fit the dark theme.</li>
+                        <li>But if that is not the case, check if mode is the same as light, show the ff variables</li>
+                        <li>Finally if they are both false show the ff variables</li>
+                        <li>So to check if everything works console the label value if things work</li>
+                        <li>To place all of this us the document.getElementById function and link it to each id</li>
+                            <ol>
+                                <li>Then for the image use src attribute because that is what is meant to change, and call the image variable.</li>
+                                <li>Then for the background color use the style attribute because that's what we are changing, then go deeper and add backgroundColor (think of it like css but in script, and everything is separated by . then reference the color variable</li>
+                                <li>Then for the text to change use the innerHTML, which we know already so yey simple, and call the label variable</li>
+                            </ol>
+                        <br>
+                        <li>So for me the way it works is that the onclick="selectMode('dark') is the string we are referencing if statements</li>
+                        <li>Then when it is clicked it triggers the function in the script file, then in the if statement mode which is dark, light and ninja will determine which code block runs</li>
+                        <li>So if mode is dark (when the dark button is clicked) show this</li>
+                        <li>Then if mode === "light" (when the light button is clicked) show this</li>
+                        <li>Then if neither are clicked and the ninja button is clicked instead, show the ff </li>
+                    </ol>
+                    
+             </ul>
+         </div>
+    </div>
+    </div>
+
+    <div class="container2">
+        <div class="box">
+            <iframe src="4.incorporating-else-if.js"></iframe>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

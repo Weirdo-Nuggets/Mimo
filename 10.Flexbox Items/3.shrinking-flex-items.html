@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css3.css">
+    <title></title>
+    <style>
+        a {
+            color: white;
+        }
+        * {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="listContainer">
+        <h1 class="listHead">Notes</h1>
+        <ul class="list">
+            <li class="subheading"> Meaning
+			</li>
+                <ul class="noBold">
+                    <li>Flex items shrink when they can't expand to their flex-basis value using flex-shrink: 1; as the default</li>
+                    <li>Setting the value to 0 means the item does not shrink.</li>
+                    <li>If both items are set to 0, they overflow outside the container's borders</li>
+                    <li>Just like flex-grow, flex-shrink can be set to overpower other items but the items need to be bigger in other to shrink more</li>
+                </ul>
+            
+                <li class="subheading">Links
+                </li>
+                    <ul class="noBold">
+                        <li><a href="1.setting-an-initial-item-size.html">Flex Basis</a></li>
+                        <li><a href="2.growing-flex-items.html">Flex Grow For 1 Flex Item & For A Group Of Flex Items</a></li>
+                        <li><a href="3.shrinking-flex-items.html">Flex Shrink </a></li>
+                        <li><a href="4.using-the-flex-shorthand.html">Flex Shorthand</a></li>
+                    </ul>
+        </ul>
+    </div>
+
+    <!--Try-->
+    <div class="container">
+        <div class="item one">1</div>
+        <div class="item two">2</div>
+    </div>
+    <br>
+    <div class="container2">
+        <div class="item one">1</div>
+        <div class="item two2">2</div>
+    </div>
+    <br>
+    <div class="container3">
+        <div class="item two2">2</div>
+        <div class="item three"></div>
+    </div>
+</body>
+</html>

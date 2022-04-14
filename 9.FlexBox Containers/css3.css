@@ -1,0 +1,60 @@
+body {
+    background-color: aquamarine;
+}
+.noBold {
+    font-weight: normal;
+}
+.listContainer {
+    background-color: tomato;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.listHead {
+    background-color: orange;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+}
+.subheading {
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline rgb(24, 255, 24);
+}
+.list {
+    color: maroon;
+}
+.container {
+    border: solid 2px maroon;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.container2 {
+    border: solid 2px maroon;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    
+}
+.container3 {
+    border: solid 2px maroon;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+.item {
+    border: solid 2px olivedrab;
+    margin: 10px;
+    
+}
+.item2 {
+    border: solid 2px olivedrab;
+    margin: 10px;
+    
+}
+.item3 {
+    border: solid 2px olivedrab;
+    margin: 10px;
+    
+}
